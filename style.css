@@ -1,0 +1,275 @@
+body{
+    margin: 0%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.body1,.body2,.body3,.body4,.body5,.body6{
+    align-items: center;
+    text-align: center;
+}
+.menu{
+    display: none;
+}
+.body1{
+    background-image:url(/5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.nav1{
+    background-color: rgb(42, 42, 112);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+em{
+    color: white;
+}
+.welcome{
+    
+    padding-right: 10%;
+}
+.about,.ourstores,.blog,.contact,.faq,.newsletter,.languages,.wishlist{
+    padding: 2px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+}
+.nav1 img{
+    width: 10px;
+    border-radius: 15px;
+}
+.nav1 img:hover{
+    cursor: pointer;
+}
+.nav2 img{
+    padding-left: 15%;
+    width: 30px;
+    border-radius: 5px;
+}
+.demos,.features,.shop,.pages,.blog,.elements{
+    padding:5px;
+}
+.nav2{
+    background-color:transparent;
+    height: 50px;
+    text-align: center;
+}
+.nav2 a{
+    text-decoration: none;
+}
+strong{
+    font-size: larger;
+}
+.elements{
+    padding-right: 5%;
+}
+.flatsome1{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.text strong{
+    font-size: 200%;
+}
+.body2{
+    background: #f4f4f4;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.body2 p{
+    text-align: center;
+    font-size: 150%;
+}
+.body2 img{
+    height: 300px;
+    width: 1000px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.body2 p .b{
+    padding: 10%;
+}
+body .heading{
+    clear: both;
+}
+.body3{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+}
+.body3 .a,.body3 .b,.body3 .c{
+    padding: 2%;
+    height: 100%;
+    text-align: center;
+    justify-content:space-evenly;
+    padding-top: 0%;
+
+}
+.body3 .button{
+    
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    
+}
+.body4 .body4heading{
+    text-align: center;
+}
+
+.body4eading p{
+    width: 20%;
+    
+}
+
+.body4{
+    background-color: #f4f4f4;
+}
+.body4 a{
+    border: 0px solid black;
+    margin:50px;
+}
+.body4 a img{
+    padding: 1%;
+    background-color: #f4f4f4;
+}
+.body5{
+    background-image:url(/Images/10.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.body6{
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.body6 a{
+    margin: 2%;
+}
+.body6 a img:hover{
+    background-color: white;
+}
+.body7{
+    background-color: white;
+    text-align: center;
+    flex-wrap:wrap;
+}
+.pics4{
+    margin: auto auto;
+}
+.body8 .one,.body8 .two,.body8 .three,.body8 .four,.body8 .five{
+    display: flex;
+    flex-direction: row;
+    width: 15px;
+}
+.buyflatsomenow{
+    text-align: center;
+    padding-right: 0%;
+}
+.buyflatsomenow button{
+    background-color: rgb(47, 118, 224);
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.buyflatsomenow button:hover{
+    background-color: rgb(0, 101, 253);
+    font-size: 25px;
+    cursor: pointer;
+}
+.body8 .pics4 .a,.body8 .pics4 .b,.body8 .pics4 .c,.body8 .pics4 .d,.body8 .pics4 .e,.body8 .pics4 .f,.body8 .pics4 .g,.body8 .pics4 .h{
+    margin: 150%;
+
+    border: 1px transparent black;
+    background-color: #5a545411;
+   padding: 15px 15px 15px 15px;
+}
+.body8 .pics4 .a:hover,.body8 .pics4 .b:hover,.body8 .pics4 .c:hover,.body8 .pics4 .d:hover,.body8 .pics4 .e:hover,.body8 .pics4 .f:hover,.body8 .pics4 .g:hover,.body8 .pics4 .h:hover{
+    background-color: #f4f4f4;
+    border: 1px solid black;
+}
+footer{
+    background-color: #696464b0;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+.payments{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    
+}
+.payments li {
+    padding: 7px;
+    
+    
+    
+}
+.arrow{
+    width: 100px;
+    font-size: 45px;
+    text-decoration: none;
+}
+.payments a{
+    style="background-color: grey;padding: 15px; border-radius: 15px;width: 100px;"
+}
+@media screen and (max-width:700px) {
+    .body1,.body2.body3,.body4,.body5,.body6,.body6,.body7,.body8,footer{
+        text-align: center;
+        width: 100%;
+    }
+    .body2 img{
+        align-items: center;
+        width: 70%;
+    }
+    .body3 img{
+        width: 100%;
+    }
+    .body4 img{
+        width: 15%;
+    }
+    .body6 img{
+        width: 25%;
+    }
+    .body7 img{
+        width: 150px;
+    }
+    .body8 img{
+        width: 70%;
+    }
+    .body8 .one{
+        width: 0.5%;
+    }
+    .body8 .two{
+        width: 0.5%;
+    }
+    .body8 .three{
+        width: 0.5%;
+    }
+    .body8 .four{
+        width: 0.5%;
+    }
+    .body8 .five{
+        width: 0.5px;
+    }
+    footer{
+        width: 100%;
+    }
+    .fnav{
+        margin: auto auto;
+        text-align: center;
+    }
+    .payments{
+        padding-right: 60px;
+    }
+    footer .fnav,footer .payments{
+        padding-left: 40px;
+    }
+}
